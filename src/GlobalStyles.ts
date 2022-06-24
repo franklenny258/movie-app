@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { Colors } from "./utils/colors";
 
 const GlobalStyles = createGlobalStyle`
     *, *::before, *::after {
@@ -11,6 +12,7 @@ const GlobalStyles = createGlobalStyle`
 
     html, body, #root {
         height: 100%;
+        color: ${Colors.white};
     }
 
     body {

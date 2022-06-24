@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Colors } from '../../utils/colors';
 
 export const Wrapper = styled.div`
     display: flex;
@@ -6,13 +7,11 @@ export const Wrapper = styled.div`
 `;
 
 export const SideBarLayout = styled.nav`
-    border: 2px solid black;
     flex: 1;
-    background-color: green;
+    background-color: ${Colors.darkPurple};
 `;
 
 export const GridContentLayout = styled.aside`
-    border: 2px solid black;
     flex: 5;
-    background-color: blue;
+    background-color: ${Colors.darkLightPurple};
 `;

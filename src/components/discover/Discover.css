@@ -1,0 +1,8 @@
+.filtered-item {
+  width: calc(100% / 5 - 4rem);
+  margin: 2rem;
+}
+
+.p-paginator, .p-inputtext {
+    background-color: #371B58 !important;
+}
